@@ -22,7 +22,8 @@ The story code can be downloaded {{url_for("encoded_story", "here")}}.
 
 ## Hints
 
-- Why does the story file look weird? Maybe there is some clues in the spaces. Is there some weird programming language that exists for this?
+- Why does the story file look weird? Maybe there is some clues in the spaces. 
+- Is there some weird programming language that exists for this?
 
 ## Solution Overview
 

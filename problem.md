@@ -1,6 +1,6 @@
 # Spaces Speak
 
-- Namespace: picoctf/examples
+- Namespace: picoctf/18739f24
 - ID: spaces-speak
 - Type: custom
 - Category: Forensics

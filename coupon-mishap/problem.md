@@ -10,7 +10,7 @@
 
 ## Description
 
-Simple Description
+We have a coupon checkout system implemented where each coupon can be used only once. Can you be greedy and see if you can apply the coupon TWICE?
 
 ## Details
 
@@ -19,13 +19,14 @@ The website is running {{link_as('/', 'here')}}
 
 ## Hints
 
-- Hint 1.
-- Hint 2
+- Hmmm, its weird that checkout takes a long time when valid coupon is applied.
+- Seems like there is a lot of time difference between check and usage
 
 ## Solution Overview
 
-1. TocTou vulnerability 
-
+1. The solution involves writing a script to obtain a coupon and send multiple requests at the same time to use that coupon.
+2. As the server takes time processing and applying a valid coupon, there is high chance multiple requests bypass the check of coupon validity and allow to be utilized twice giving the flag
+ 
 
 ## Challenge Options
 
@@ -41,7 +42,8 @@ init: true
 
 ## Learning Objective
 
-- Learning Objectives 1
+- Building Web Exploits, understand what it takes to create the vulnerability.
+- TOCTOU vulnerability
 
 ## Tags
 

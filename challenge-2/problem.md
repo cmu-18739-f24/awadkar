@@ -53,4 +53,4 @@ Examining files to extract hidden information
 
 - author: 'aashayWadkar'
 - organization: picoCTF
-- event: 18739D - Problem Development 1
+- event: 18739 CTF

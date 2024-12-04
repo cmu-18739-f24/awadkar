@@ -53,4 +53,4 @@ init: true
 
 - author: Aashay Wadkar
 - organization: 18739
-- event: 18739 Problem Development 2
+- event: 18739 CTF
